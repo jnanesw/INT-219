@@ -7,12 +7,12 @@
 
 body{
     margin: 0;
-    background-color: #cd094e;
+    background-color: #e8ebeb;
      font-family: "Poppins", sans-serif;
 }
 
 header{
-    background-color: #0615de;
+    background-color: #4cc9d7;
     padding: 1rem;
     display: flex;
     justify-content: flex-end;
@@ -50,7 +50,7 @@ main{
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
     border-radius: 3px;
     width: 300px;
-    background-color: #0d1dd2;
+    background-color: #b52391;
     margin: 1rem;
     overflow: hidden;
     position: relative;
@@ -66,7 +66,7 @@ main{
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 1rem 1rem;
-    color: #eee;
+    color: rgb(0, 0, 0);
     letter-spacing: 0.5px;
     align-items: center;
 }
@@ -76,14 +76,14 @@ main{
 }
 
 .movie-info span{
-    background-color: #22254b;
+    background-color: #393e83;
     padding: 0.25rem 0.5rem;
     border-radius: 3px;
     font-weight: bold;
 }
 
 .movie-info span.green{
-    color: rgb(46, 194, 46);
+    color: rgb(42, 194, 42);
 }
 .movie-info span.orange{
  color: orange;
@@ -99,7 +99,7 @@ main{
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: rgb(244, 244, 244);
     padding: 2rem;
     transform: translateY(100%);
     transition: transform 1s ease-in;
